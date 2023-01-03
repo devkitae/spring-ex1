@@ -1,12 +1,12 @@
-package com.kt.javaoop.service;
+package com.kt.springex1.service;
 
-import com.kt.javaoop.logic.BubbleSort;
-import com.kt.javaoop.logic.JavaSort;
+import com.kt.springex1.logic.JavaSort;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 /**
  * Created By Cheetah on 2023-01-02.
  */class SortServiceTest {

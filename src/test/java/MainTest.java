@@ -1,4 +1,4 @@
-import com.kt.javaoop.Main;
+import com.kt.springex1.Main;
 import org.junit.jupiter.api.Test;
 
 /**

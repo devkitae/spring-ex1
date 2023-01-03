@@ -1,18 +1,20 @@
-package com.kt.javaoop.service;
+package com.kt.springex1.service;
 
-import com.kt.javaoop.logic.JavaSort;
-import com.kt.javaoop.logic.Sort;
+import com.kt.springex1.logic.Sort;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created By Cheetah on 2023-01-02.
  */
+@Service
 public class SortService {
 
     private final Sort<String> sort;
 
-    public SortService(Sort<String> sort) {
+    public SortService(@Qualifier("bubbleSort") Sort<String> sort) {
         this.sort = sort;
         System.out.println("구현체: " + sort.getClass().getName());
     }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-03T00:47:18" hostname="DESKTOP-PJMOMA0" time="0.46">
+  <properties/>
+  <testcase name="main()" classname="MainTest" time="0.46"/>
+  <system-out><![CDATA[구현체: com.kt.springex1.logic.BubbleSort
+[result][1, 2, 3]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,4 +1,4 @@
-package com.kt.javaoop.logic;
+package com.kt.springex1.logic;
 
 import java.util.List;
 

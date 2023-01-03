@@ -1,11 +1,11 @@
-package com.kt.javaoop.logic;
+package com.kt.springex1.logic;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Created By Cheetah on 2022-12-01.
